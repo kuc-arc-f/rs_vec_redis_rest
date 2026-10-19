@@ -27,7 +27,7 @@ cargo build --release
 ***
 * Test-code
 * INSERT
-* prefix: prefix: prefix data type
+* prefix: prefix data type
 * content: text
 * vector: vector data
 
@@ -39,7 +39,7 @@ curl -X POST http://localhost:8888/api/insert \
 ```
 
 * select
-* prefix: prefix: prefix data type
+* prefix: prefix data type
 * limit: get max data
 * vector: vector data
 
