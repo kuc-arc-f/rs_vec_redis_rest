@@ -14,6 +14,14 @@ Rust Axum API , Redis Vector DB example
 * rustc 1.97.1
 
 ***
+### related client
+
+* C++ CLI , vector search
+
+https://github.com/kuc-arc-f/cpp_18ex/tree/main/redis_cl_11
+
+
+***
 * build
 ```
 cargo build --release
