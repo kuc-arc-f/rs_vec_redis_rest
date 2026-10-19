@@ -12,7 +12,7 @@ Rust Axum API , Redis Vector DB example
 
 * Redis database
 * rustc 1.97.1
-
+* LLVM CLang
 ***
 ### related client
 
@@ -56,6 +56,18 @@ curl -X POST http://localhost:8888/api/select \
   -H "Content-Type: application/json" \
   -d '{"prefix": "doc:" , "limit": 3 ,"vector": [0.02 , 0.03, 0.14]}'
 
+```
+
+***
+* delete , prefix data type
+* build
+```
+g++ -std=c++17 delete_doc.cpp -o delete_doc -lhiredis
+```
+
+* delete [PREFIX]
+```
+./delete_doc doc1:
 ```
 
 
